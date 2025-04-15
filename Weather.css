@@ -1,0 +1,50 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    background-image: linear-gradient(45deg,#2f4680,#500ae4);
+    
+}
+.weather1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.weather1 input{
+     border: none;
+     outline: none;
+     border-radius: 17px;
+     padding: 7px;
+}
+.weather1 img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.location{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+}
+.wether-data{
+    transform: translateY(40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    color: white;
+}
+
+.h22{
+        color:white;
+        margin-top: 15px;
+    }
